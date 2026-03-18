@@ -1,6 +1,16 @@
 # Dotfiles
 
 My personal Hyprland configuration for an Arch-based setup.
+NOTE: in the waybar modules, i have persistent workspaces setup, if the monitor names don't line up with yours, please change them
+its in the persistent workspaces section
+
+use sudo nano ~/.config/waybar/modules.json
+
+in the hyprland config itself, change the resolution and location along with refresh
+
+use sudo nano ~/.config/hypr/hyprland.conf
+
+to check monitors, use hyprctl monitors after the default hyprland installs
 
 ## Preview
 
