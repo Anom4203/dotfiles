@@ -159,19 +159,21 @@
     "on-click-left": "playerctl previous"
   },
   // Workspaces (hyprland) Module
-  "hyprland/workspaces": {
-    "format": "{icon}",
-    "format-icons": {
-      "default": "",
-      "active": ""
-    },
-    "persistent-workspaces": {
-      "*": 1
-    },
-    "disable-scroll": true,
-    "all-outputs": true,
-    "show-special": true
+"hyprland/workspaces": {
+  "format": "{icon}",
+  "format-icons": {
+    "default": "",
+    "active": ""
   },
+  "persistent-workspaces": {
+    "HDMI-A-1": [1, 2, 3, 4, 5],
+    "eDP-1": [6, 7, 8, 9, 10]
+  },
+  "disable-scroll": true,
+  "all-outputs": false,   // show workspaces only for their output
+  "show-special": true
+},
+
   // Idle Inhibitor Module
   "idle_inhibitor": {
     "format": "{icon}",
