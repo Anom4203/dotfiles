@@ -210,7 +210,7 @@ git push
 (If you don’t have a `sync.sh` yet, add one using `rsync` with an explicit allowlist.)
 
 ## Credits
-
+ - **The Original configs** :https://github.com/time-0n/dotfiles 
 - **Materia Theme**: [PapirusDevelopmentTeam](https://github.com/PapirusDevelopmentTeam/materia-kde)
 - **LazyVim**: [folke](https://github.com/LazyVim/LazyVim)
 - **GRUB Theme**: Based on [Patato777's dotfiles](https://github.com/Patato777/dotfiles)
